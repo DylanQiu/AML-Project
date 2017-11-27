@@ -1,0 +1,20 @@
+The original np.shape of train_x and train_y is:
+np.shape(train_x) = (50000, 4096)
+np.shape(train_y) = (50000, )
+
+try1 use the method of the easist NN in tensorflow tutorial to train
+
+Oct. 30
+Using 82 classes.
+Using whole training data(:45000) to test testing data(45000:):
+loop: accuracy in validation
+100: 0.0466
+200: 0.0538
+300: 0.0594
+350: 0.0584
+400: 0.028
+
+Using 40 classes.
+100: 0.0122
+200: 0.0584
+300: 0.0084
